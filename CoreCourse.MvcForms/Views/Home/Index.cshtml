@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-3">
+        <h2>Mvc Forms Basics</h2>
+        <div>
+            <p>This application helps you understand how Web Forms work in ASP.NET Core MVC.</p>
+            <p>Click on one of the links to navigate to a specific view.</p>
+            <p>For a clear understanding, you will need access to the accompanying <b>ASP.NET Core</b> course book</p>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2><a asp-action="Index" asp-controller="SimpleForm">Simple Form</a> &raquo;</h2>
+                    <ul>
+                        <li>POST Request</li>
+                        <li>GET Request</li>
+                        <li>Using Named Route</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2><a asp-action="Index" asp-controller="InputVarieties">Input Varieties</a> &raquo;</h2>
+                    <ul>
+                        <li>&lt;input&gt; tag helpers</li>
+                        <li>Modelbinding with view model</li>
+                        <li>Datatypes with attributes</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2><a asp-action="Index" asp-controller="SelectLists">Select Lists</a> &raquo;</h2>
+                    <ul>
+                        <li>Select Tag Helper</li>
+                        <li>Option groups</li>
+                        <li>Multiple selections</li>
+                        <li>Enum to select</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2><a asp-action="Index" asp-controller="ValidatedForm">Validated Form</a> &raquo;</h2>
+                    <ul>
+                        <li>Validation attrbutes</li>
+                        <li>Validation Tag helpers</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2><a asp-action="Register" asp-controller="Users">Complex Validation</a> &raquo;</h2>
+                    <ul>
+                        <li>Validation attrbiutes</li>
+                        <li>Validation Tag helpers</li>
+                        <li>Server side and client side validation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
