@@ -34,7 +34,6 @@ namespace CoreCourse.MvcForms.ViewModels
         [Display(Name = "Date of birth")]
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         [DataType(DataType.Date)]
-        [Range(typeof(DateTime), "01/01/1900", "01/01/3000")]
         public DateTime BirthDate { get; set; }
 
         [Display(Name = "Creditcard number")]
