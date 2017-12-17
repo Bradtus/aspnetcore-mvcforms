@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27130.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreCourse.MvcForms", "CoreCourse.MvcForms\CoreCourse.MvcForms.csproj", "{DB9B32CF-F3C8-44D6-8254-BAE781E1795D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreCourse.MvcForms", "CoreCourse.MvcForms\CoreCourse.MvcForms.csproj", "{DB9B32CF-F3C8-44D6-8254-BAE781E1795D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,5 +21,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A61FEC42-9868-4BD3-A735-54F3F3E7DF8E}
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = a61fec42-9868-4bd3-a735-54f3f3e7df8e
 	EndGlobalSection
 EndGlobal
